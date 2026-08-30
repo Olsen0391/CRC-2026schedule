@@ -15,7 +15,7 @@
   <meta name="twitter:description" content="参加予定・参加時間・メモをまとめられるマイスケジュールアプリ" />
   <title>CRC 2026 マイスケジュール</title>
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="stylesheet" href="styles.css?v=10" />
+  <link rel="stylesheet" href="styles.css?v=11" />
 </head>
 <body>
   <header class="app-header">
@@ -66,7 +66,8 @@
       <button class="close-button" id="closeModal" aria-label="閉じる">×</button>
       <p class="modal-time" id="modalTime"></p><h2 id="modalTitle"></h2><p class="modal-room" id="modalRoom"></p>
       <div id="customTimeFields"><label>自分の参加時間</label><div class="time-inputs"><input id="customStart" type="time" aria-label="開始時刻"><span>〜</span><input id="customEnd" type="time" aria-label="終了時刻"></div><p class="field-hint">公式時間を初期表示しています。自分が参加する時間に変更できます。</p></div>
-      <label for="noteInput">メモ</label><textarea id="noteInput" placeholder="聞きたいこと、気づき、あとで確認すること…"></textarea>
+      <div class="memo-field"><label for="learnedInput">学んだこと</label><textarea id="learnedInput" placeholder="知ったこと、印象に残った内容、あとで確認したいこと…"></textarea></div>
+      <div class="memo-field"><label for="feelingInput">その瞬間の感想</label><textarea id="feelingInput" placeholder="その場で感じたこと、疑問、気づき…"></textarea></div>
       <button class="primary-button" id="saveNote">メモを保存</button>
     </div>
   </div>
@@ -80,6 +81,6 @@
       <p class="report-hint">コピーした文面を、このチャットに貼り付ければ参加報告スライドの素材として使えます。</p>
     </div>
   </div>
-  <script src="app.js?v=9"></script>
+  <script src="app.js?v=10"></script>
 </body>
 </html>
