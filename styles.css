@@ -21,3 +21,8 @@
 :root{--about-heading:#66532d}.about-copy h3{font-size:13px;color:var(--about-heading);margin:17px 0 6px;border-bottom:1px solid #e1d3a3;padding-bottom:4px}.about-copy ol{padding-left:20px;margin:5px 0 12px}.about-copy li{margin:4px 0}.about-copy .small-note{font-size:10px;color:#8b8176;margin-top:14px}
 :root{--modal-layer:100}.modal-backdrop{z-index:100}.modal{z-index:101;max-height:90vh;overflow-y:auto}
 :root{--modal-layer:100}.modal-backdrop{z-index:100}.modal{width:100%;max-width:100%;grid-column:1/-1}.modal.report-modal,.modal.about-modal{width:100%;max-width:100%}
+
+/* 作者クレジットはプロフィール全体をリンクとして扱う */
+.profile-credit{color:var(--credit-ink);text-decoration:none}
+.profile-credit small{display:block;font-size:9px;line-height:1;color:#9a8860;letter-spacing:.06em;text-transform:uppercase}
+.profile-credit:hover strong,.profile-credit:hover span{text-decoration:underline}
