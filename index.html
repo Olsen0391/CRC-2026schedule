@@ -15,7 +15,7 @@
   <meta name="twitter:description" content="参加予定・参加時間・メモをまとめられるマイスケジュールアプリ" />
   <title>CRC 2026 マイスケジュール</title>
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="stylesheet" href="styles.css?v=9" />
+  <link rel="stylesheet" href="styles.css?v=10" />
 </head>
 <body>
   <header class="app-header">
@@ -62,7 +62,7 @@
   <footer><a href="https://ctpf.or.jp/crc2026/wp/wp-content/themes/crc2026/download/scedule20260723.pdf" target="_blank" rel="noreferrer">公式プログラムPDFを見る ↗</a><button class="about-link" id="aboutButton">このアプリについて</button></footer>
 
   <div class="modal-backdrop" id="modal" hidden>
-    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal session-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
       <button class="close-button" id="closeModal" aria-label="閉じる">×</button>
       <p class="modal-time" id="modalTime"></p><h2 id="modalTitle"></h2><p class="modal-room" id="modalRoom"></p>
       <div id="customTimeFields"><label>自分の参加時間</label><div class="time-inputs"><input id="customStart" type="time" aria-label="開始時刻"><span>〜</span><input id="customEnd" type="time" aria-label="終了時刻"></div><p class="field-hint">公式時間を初期表示しています。自分が参加する時間に変更できます。</p></div>

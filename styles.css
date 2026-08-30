@@ -31,3 +31,9 @@
 .profile-credit small{display:inline;font-size:10px;line-height:1;color:#9a8860;letter-spacing:.04em;text-transform:none}
 .profile-credit img{width:26px;height:26px}
 .profile-credit span{margin-top:0;font-size:10px;color:#8b817a}
+
+/* メモ入力は端末いっぱいに広げ、入力欄を大きく確保する */
+.session-modal{width:100%;max-width:none;height:100dvh;min-height:100vh;border-radius:0;padding:28px 20px calc(20px + env(safe-area-inset-bottom));display:flex;flex-direction:column;overflow-y:auto}
+.session-modal textarea{flex:1;width:100%;min-height:240px;height:auto;resize:none}
+.session-modal .primary-button{margin-top:14px;flex:none;padding:15px}
+.session-modal .close-button{top:calc(10px + env(safe-area-inset-top));right:16px}
