@@ -40,3 +40,7 @@
 .session-modal .memo-field textarea{min-height:110px;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch}
 .session-modal .primary-button{margin-top:14px;flex:none;padding:15px}
 .session-modal .close-button{top:calc(10px + env(safe-area-inset-top));right:16px}
+
+/* 一覧を見続けられるよう、表示切替と日付をスクロール時に上部へ固定 */
+.tabs{position:sticky;top:0;z-index:30;box-shadow:0 3px 10px rgba(30,45,70,.08)}
+.day-switcher{position:sticky;top:49px;z-index:29;background:#f5f7fb;padding-top:14px;padding-bottom:8px;box-shadow:0 3px 10px rgba(30,45,70,.06)}
