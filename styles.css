@@ -26,3 +26,8 @@
 .profile-credit{color:var(--credit-ink);text-decoration:none}
 .profile-credit small{display:block;font-size:9px;line-height:1;color:#9a8860;letter-spacing:.06em;text-transform:uppercase}
 .profile-credit:hover strong,.profile-credit:hover span{text-decoration:underline}
+
+.profile-credit{gap:7px;align-items:center}
+.profile-credit small{display:inline;font-size:10px;line-height:1;color:#9a8860;letter-spacing:.04em;text-transform:none}
+.profile-credit img{width:26px;height:26px}
+.profile-credit span{margin-top:0;font-size:10px;color:#8b817a}
